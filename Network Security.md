@@ -119,3 +119,5 @@ To send email, the standard is SMTP (Simple Mail Transfer Protocol).
 
 How do data packets get routed to these services from the transport layer? Specific numbers called ports are reserved so that packets for different services can come in at the same time. Think of ports as lanes for network traffic!
 
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_NetworksDiagram_2.svg)
+
