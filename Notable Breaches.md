@@ -1,4 +1,4 @@
-Breach 1: Uber (2016)
+## Breach 1: Uber (2016)
 In late 2016, attackers used a password obtained in an unrelated data breach to gain access to an Uber engineer’s personal GitHub account. From this account, the attackers were able to access one of Uber’s internal repositories, which contained a private key used to access Uber’s datastores. These datastores contained unencrypted personal information for approximately 57 million Uber drivers and riders. The attackers downloaded copies of this private user information violating the information’s confidentiality. The attackers then contacted Uber, informed them that they had compromised Uber’s databases, and demanded a ransom to delete the stolen data.
 
 Uber was contacted by the attackers on November 14th, 2016, and Uber chose to pay the ransom. Uber had the attackers sign non-disclosure agreements regarding the stolen information.
