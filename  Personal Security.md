@@ -44,3 +44,6 @@ When not using a VPN, every website you visit, and sometimes people and websites
 Maybe you’re okay with not being anonymous. However, VPNs also add security. They can protect you from Man-In-The-Middle (MITM) Attacks, in which network traffic is intercepted by a malicious third party. When you use a VPN, it creates an encrypted tunnel between you and a remote server operated by your VPN provider. That prevents your ISP, others on your WiFi network, and websites from seeing what you’re doing.
 
 So, if you log on to that suspicious public WiFi network with a VPN turned on, you don’t have to worry about your username and password being stolen.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/personal-device-security/Cybersecurity_ManintheMiddle_v2-11.svg)
+
