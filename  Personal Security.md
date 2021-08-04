@@ -34,3 +34,13 @@ Using Virtual Private Networks
 Virtual Private Networks (VPNs) are a pretty cool tool. With the click of a button, you can be browsing the Internet disguised as a device from Paris, or Beirut, or Kinshasa.
 
 Of course, the drawback is that accessing the Internet through a VPN can slow down your internet experience, and VPN services usually cost money. But VPNs are an essential tool because they provide two things: anonymity and security.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/personal-device-security/Cybersecurity_VPNDiagram_1-09.svg)
+
+You might ask, “Why is anonymity important? I’m not doing anything illegal.” That may be true, but you should understand that if you’re not using a VPN, your Internet Service Provider (ISP) can see everything you’re doing. They can see which websites you visit, the time you spend on them, what you do on them, the device you’re using, and where you are. They are also allowed to take that data and sell it.
+
+When not using a VPN, every website you visit, and sometimes people and websites you communicate with online, are able to see your IP Address and location by using beacons.
+
+Maybe you’re okay with not being anonymous. However, VPNs also add security. They can protect you from Man-In-The-Middle (MITM) Attacks, in which network traffic is intercepted by a malicious third party. When you use a VPN, it creates an encrypted tunnel between you and a remote server operated by your VPN provider. That prevents your ISP, others on your WiFi network, and websites from seeing what you’re doing.
+
+So, if you log on to that suspicious public WiFi network with a VPN turned on, you don’t have to worry about your username and password being stolen.
