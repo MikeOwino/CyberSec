@@ -47,3 +47,14 @@ So, if you log on to that suspicious public WiFi network with a VPN turned on, y
 
 ![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/personal-device-security/Cybersecurity_ManintheMiddle_v2-11.svg)
 
+### Messaging Security
+Just as VPN encryption keeps you safe from eavesdroppers, the encryption provided by certain messaging apps such as Signal, or email providers such as Protonmail or Tutanota can also help to keep you secure. What makes these services different from more widely known competitors is that all of them offer end-to-end encryption. Essentially, using encrypted communication platforms both protects your data from being taken and prevents companies from collecting data from your messages for marketing purposes.
+
+### Browser Security
+The type of browser you choose can also matter. There are a wide array of browsers to choose from offering unique features, but some browsers are more secure than others. For example, some browsers may update frequently but allow third parties to track you, whereas others may have the opposite problem. However, no matter what browser you are using, by always running the latest software available to you, you ensure that you are protected from the vast majority of attacks.
+
+Keeping Software Up to Date
+Knowledge is power when it comes to cybersecurity. Threat actors exploit vulnerabilities to gain unauthorized access to information, but by keeping yourself and your systems up to date you can make those vulnerabilities harder to exploit. Make sure that you are running the current version of your browser and operating system. Make sure to download new updates on your devices as well, since they often release specific patches for vulnerabilities.
+
+Look out for Social Engineering
+Protecting your systems is only half the battle. The most secure system in the world is still vulnerable to human error and social engineering attacks such as phishing, which was a factor in 33% of data breaches in 2019. Making sure you know how to spot phishing, baiting, scareware and other social engineering attacks is as important as keeping your systems secure.
