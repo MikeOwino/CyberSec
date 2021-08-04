@@ -7,12 +7,12 @@ An image showing an Uber representative frowning at some hackers and giving the 
 
 What Uber did not do, however, was disclose the breach. Uber was also under investigation at the time for a different breach that occurred in 2014. Uber didn’t disclose the breach until November 21, 2017, following the appointment of a new CEO. In addition to being highly unethical, Uber’s failure to disclose the breach was also illegal. In addition to the $100,000 ransom, Uber paid $148 million as part of the settlement.
 
-Lessons Learned
+### Lessons Learned
 Failing to disclose breaches is unethical and illegal. Prompt disclosure is crucial to maintaining the trust of customers and complying with the law.
 Mistakenly including keys or other sensitive data in source-control repositories is a common mistake with potentially serious repercussions. Administrative and technical controls should be put in place to prevent sensitive data from being included in repositories, even internal repositories.
 Allowing access to internal resources with personal, external accounts is a security risk. Internal resources should be accessed using work accounts with strong security policies.
 Don’t store private user information in an unencrypted format.
-Breach 2: Target (2013)
+## Breach 2: Target (2013)
 In late November of 2013, attackers gained access to Target’s internal network using credentials stolen from a third-party vendor with network access. Improper network segmentation let the attackers gain access to Target’s point-of-sale (POS) system, which they installed malware onto. This malware stole the details of over 40 million credit cards used at Target’s stores, along with the personal information of over 70 million people. Target had antimalware software monitoring their system, but it was improperly monitored and configured. The software was not able to automatically remove the malware, and the alerts it raised went uninvestigated.
 
 An image showing a Target store in the background as an attacker gets away with a shopping cart full of user credentials.
