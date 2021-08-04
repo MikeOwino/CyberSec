@@ -42,3 +42,16 @@ Application firewalls:
 
 Utilize application-specific rules to identify malicious traffic
 For example, a firewall may use a pattern designed to identify a specific attack. A request containing the string “UNION SELECT”, indicating a potential SQL injection, may be blocked by an application firewall.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/firewalls/Cybersecurity_ApplicationFirewall_v2-10.svg)
+
+In another example, an HTTP request may be passing data to a web server. While the request’s IP and session information may appear safe, content sent in individual HTTP requests could pose a danger to the receiving web servers. An application firewall could identify malicious content in HTTP requests and block the content.
+
+Next-Generation Level Firewalls
+* Next-generation level firewalls (NGLF) are considered the most advanced firewalls. On top of using all of the above methods, they will also identify additional malicious content in real-time.
+
+Next-generation level firewalls:
+
+May use artificial intelligence, or even global networks, to identify new and emerging threats in real-time
+Are extremely complex
+Usually require a much higher operating cost
