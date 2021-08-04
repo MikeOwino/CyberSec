@@ -73,3 +73,49 @@ Layer 7 – Application
 The final layer of the OSI model is the Application layer. This layer includes websites, browsers, email, mobile applications, and how they render Internet data so that we can interact with it.
 
 ![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_NetworkModel_v2-02.svg)
+
+### TCP/IP Model and Implementation
+The OSI Model isn’t the only model that describes networking.
+
+You will hear more often about the TCP/IP model, which is a 4-layered model that makes direct reference to current Internet implementations. Its foundational protocols are TCP and IP.
+
+The four layers of TCP/IP are as follows:
+
+Application Layer
+This includes the opening and closing of sessions, translating data, and the interaction with content at the application level. Here, there are multiple protocols for web content, email, and accessing files, including HTTP, FTP, SMTP, and more.
+
+Transport Layer
+TCP and UDP are the core protocols here.
+
+TCP is a connection-oriented protocol, where a more rigorous acknowledgment between one sender and one receiver must happen before any data can be sent. This protocol also includes flow control and error recovery, and it is used when larger amounts of data need to be sent and timing is less of a concern.
+
+UDP is a more lightweight protocol that does not require a fixed channel between a sender and receiver. It is often used when the amount of data sent is piecemeal and needs to be transmitted quickly.
+
+The Internet Layer
+This is where IP addressing and routing occur.
+
+Network Access Layer
+Sometimes called the Link layer, this layer encompasses the sending or receiving of network data at the local network level.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_OSI_TCP-IP_Diagram_1-13.svg)
+
+### Network Protocols: DNS, HTTP, Email
+Now that we have a conceptual model of everything it takes for data to travel in a network, let’s talk about some of the most common network protocols we use everyday.
+
+What are network protocols? They are simply a set of standards for devices interacting on the Internet! It’s important to understand these protocols from the angle of network security. Threat actors often abuse the rules of a protocol to gain access to sensitive information.
+
+In this exercise, we’ll talk about a few protocols within the TCP/IP implementation Application layer.
+
+DNS
+The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet. It’s hard to remember an exact IP address when we want to access a website. When we request the URL codecademy.com, our computer sends a DNS request to a DNS server. The server then returns the correct IP addresses to route data to and from Codecademy.
+
+HTTP
+The HTTP (The Hyper Text Transfer Protocol) handles our web requests to servers. HTTP uses a set of verbs, like GET, POST, PUT, and HEAD, to retrieve and send data. Anytime a page is loaded, there are multiple web requests to retrieve content like images, text, and formatting code.
+
+IMAP, POP, and SMTP
+How does email work? IMAP (Internet Message Access Protocol) and POP (Post Office Protocol) allow users to access emails stored on a remote web server. In IMAP, servers store your email and return copies to you, allowing you to access the same email on multiple devices. In POP3 (POP version 3), however, emails are generally downloaded from the server onto just a single device.
+
+To send email, the standard is SMTP (Simple Mail Transfer Protocol).
+
+How do data packets get routed to these services from the transport layer? Specific numbers called ports are reserved so that packets for different services can come in at the same time. Think of ports as lanes for network traffic!
+
