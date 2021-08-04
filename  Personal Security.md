@@ -61,3 +61,8 @@ Protecting your systems is only half the battle. The most secure system in the w
 
 ![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/personal-device-security/verizon_attacks.png)
 
+## Hardening Your Device
+Hardening is the process of fortifying a system against attacks. When we harden computers, we are generally focused on fortifying the operating system, making sure that it is as secure as it can be.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/securing-personal-devices/Cybersecurity_ComputerSystemSecurityHardening_1-16.svg)
+
