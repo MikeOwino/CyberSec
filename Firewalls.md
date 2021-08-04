@@ -55,3 +55,6 @@ Next-generation level firewalls:
 May use artificial intelligence, or even global networks, to identify new and emerging threats in real-time
 Are extremely complex
 Usually require a much higher operating cost
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/firewalls/Cybersecurity_NextGenFirewall_2.svg)
+
