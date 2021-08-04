@@ -19,7 +19,7 @@ An image showing a Target store in the background as an attacker gets away with 
 
 Target discovered the breach on December 12th, 2013, and quickly responded, working with federal and private investigators to conduct a forensic investigation and remove the malware. While the breach was disclosed to card processors by the 16th, it was not disclosed to the public until the 18th when Brian Krebs, a security researcher, broke the story. In the aftermath of the breach, Target invested 100 million dollars into improving its cybersecurity and paid out an additional 18.5 million dollars in settlement costs.
 
-Lessons Learned
+### Lessons Learned
 Promptly responding to breaches is crucial to maintain both legal compliance, and professional image. While Target’s public disclosure was delayed, there can be valid investigative reasons to delay public disclosure.
 Proper configuration is a requirement for security systems to be effective.
 Conducting a proper investigation of security alerts is crucial to catching attacks before they get out of control. Improperly configured alerts, particularly high volumes of false alarms, can cause legitimate alerts to be ignored.
