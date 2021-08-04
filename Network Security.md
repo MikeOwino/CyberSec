@@ -121,3 +121,16 @@ How do data packets get routed to these services from the transport layer? Speci
 
 ![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_NetworksDiagram_2.svg)
 
+### Network Protocols: SSH, SMB, FTP
+The protocols in the last exercise are all involved in everyday Internet activity. Below are some other Application-layer protocols that are more commonly used by IT professionals.
+
+SSH
+Secure Shell (SSH) is used to access a remote terminal or virtual machine (VM) over a secure connection. IT professionals and engineers use this to help configure and program a system remotely and securely. For example, accessing Github from the command line uses SSH!
+
+FTP
+The File Transfer Protocol (FTP) is used to transfer files from one system to another. Modern implementations of FTP can include encryption as well.
+
+SMB
+The Server Message Block (SMB) protocol allows multiple users to interact with a remote system like a file share or printing services. Multiple people can view and modify shared resources and files in a centralized server.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_NetworkDiagram_1.svg)
