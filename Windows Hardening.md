@@ -1,0 +1,45 @@
+## Windows Quirks To Consider
+Windows has many settings and options spread across an array of separate menus within the operating system. Microsoft tries to make sure that old software and hardware will continue to function with new versions of Windows software. While maintaining compatibility has its benefits, it also creates some inconsistent rules.
+
+Because of these version differences, keep in mind that there is no one-stop-shop for hardening all versions of Windows. In this article, we will walk through a basic hardening checklist that should inspire some further research. Follow along and see which ones you haven’t implemented yet!
+
+## Basic Windows Hardening Checklist
+
+This section is a guide to enable basic security features and hardening measures and to help build your confidence to move onto more advanced hardening. As you work your way through this list, it’s a good security habit to research each item before you go through with it.
+
+## Account Setup
+Force Accounts to Have Passwords
+Open the “Run” app by searching for it or using Win+ r.
+Type netplwiz into the dialog box and click “OK”.
+Check the box labeled “Users must enter a user name and password to use this computer.” in the “User Accounts” window.
+Limit Administrator Privileges to only Necessary Accounts
+From the same “User Accounts” window, you can set whether or not accounts have administrator privileges.
+Select an account that you want to add or remove administrator privileges from, then click “Properties”.
+In the new window, switch to the “Group Membership” tab, and select “Standard User” or “Administrator” as appropriate.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/windows-hardening/Windows_UserAccounts.PNG)
+
+Require Log In on Screensaver
+Open the “Settings” app.
+Go to the “Accounts” section.
+Go to the “Sign-in options” section in the sidebar.
+Under the “Require sign-in” header, select “When PC wakes up from sleep”
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/windows-hardening/Windows_Screensaver.PNG)
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/windows-hardening/Windows_Firewall_Enable.PNG)
+
+Advanced Windows Hardening Techniques
+Once you’ve completed the basics of hardening your OS, you may want to move on to more advanced hardening. These are methods that require additional resources and/or research. Some measures spend more computer resources, slowing down your system, or cause networking issues in certain environments. Always be sure to do your research on the benefits, drawbacks, and potential complications of a technique before choosing to apply it!
+
+Uninstall Unused Programs
+There’s no point having programs that you don’t use sitting around on your computer; at best, they take up space, and at worst they provide extra tools for attackers to make use of. It’s good to scan through the list of programs in case any of them were downloaded accidentally. Be careful to distinguish from critical programs for the OS.
+
+### Encryption
+Some versions of Windows come with options for encrypting the hard drive, such as Bitlocker.
+Self-encrypting drives are hard drives with built-in encryption.
+### Backups
+Some versions of Windows have the option of automatic backups using File History, and an extra hard drive.
+There are many cloud-based backup services available to consumers such as OneDrive and DropBox.
+Creating local backups using an external hard drive is also an option, and there are many ways to do it.
+### Add Extra Security Software
+While Windows’ built-in antivirus is usually adequate, it may not be enough in special situations, such as when securing a not so tech-savvy family member’s computer. In these cases, it’s worth it to invest in additional security software that offer a full suite of protection and features. Kaspersky and Bitdefender are two well-regarded names in consumer security software, but you can look at a variety of recent guides to determine what suite will meet your needs.
