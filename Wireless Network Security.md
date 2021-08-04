@@ -9,3 +9,5 @@ Network Segmentation is the basic practice of breaking apart larger networks int
 
 Generally, when using network segmentation, we want to consider the role of each segmented network. For example, in an organization, does a computer in the Human Resources department need access to the servers used by the Engineering department or the Marketing department? Most likely no. Should a friend visiting the office be able to access the company login portal? Definitely not!
 
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/wireless-security/Cybersecurity_Segmentation_1-11.svg)
+
