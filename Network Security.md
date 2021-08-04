@@ -56,3 +56,18 @@ The Transport layer refers to how data is actually transferred. Let’s say you 
 The most common transport protocols on the Internet are TCP (Transmission Control Protocol) and UDP (User Datagram Protocol). We’ll go into these two protocols later in this lesson!
 
 ![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_NetworkModel_v3-03.svg)
+
+
+### OSI Layers 5, 6, 7
+Layer 5 – Session
+When two computers or devices have started an exchange of information, we call that a session. The Session layer in OSI is responsible for opening, closing, and maintaining sessions.
+
+In terms of opening and closing, the session layer includes authentication and authorization measures. For example, without logging in or having the right permissions, you may not be able to connect to parts of a website. But if you are logged in, your access permission is stored for a set amount of time, or session length.
+
+Meanwhile, session management ensures communications occur successfully by providing safeguards in case a connection fails or drops.
+
+Layer 6 – Presentation
+The Presentation layer includes all the methods that convert data into a format usable by an application. This layer handles functions such as encoding/decoding, encryption/decryption, and compression/decompression of files.
+
+Layer 7 – Application
+The final layer of the OSI model is the Application layer. This layer includes websites, browsers, email, mobile applications, and how they render Internet data so that we can interact with it.
