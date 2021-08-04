@@ -71,3 +71,5 @@ The Presentation layer includes all the methods that convert data into a format 
 
 Layer 7 – Application
 The final layer of the OSI model is the Application layer. This layer includes websites, browsers, email, mobile applications, and how they render Internet data so that we can interact with it.
+
+![](https://static-assets.codecademy.com/Courses/introduction-to-cybersecurity/network-basics/Cybersecurity_NetworkModel_v2-02.svg)
